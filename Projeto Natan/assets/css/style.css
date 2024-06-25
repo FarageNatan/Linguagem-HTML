@@ -1,0 +1,199 @@
+nav {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    border: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 20px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+#seção1 .Informações {
+    display: flex;
+}
+
+#seção1 .Informações img {
+    margin-right: 20px;
+}
+
+#seção1 .Informações .info {
+    flex-grow: 1;
+}
+
+#seção1 .Informações .info p {
+    margin: 0;
+}
+
+#seção1 .Informações .dados {
+    margin-top: 10px;
+}
+
+#seção1 .Informações .dados div {
+    margin-bottom: 5px;
+}
+
+#seção1 .Informações .dados div strong {
+    margin-right: 5px;
+}
+
+#seção1 .Informações .redes {
+    margin-top: 10px;
+}
+
+#seção1 .Informações .redes strong {
+    margin-right: 5px;
+}
+
+#seção2 .repositorios {
+    margin-top: 20px;
+}
+
+#seção2 .repositorio {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#seção2 .repositorio:hover {
+    text-decoration: underline;
+}
+
+#seção2 .repositorios .estatisticas-repo span {
+    margin-right: 10px;
+}
+
+
+#carouselExample {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .colegas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .colegas .pessoa {
+    margin: 0 10px;
+}
+
+footer .colegas .pessoa strong {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    #seção1 .Informações img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #seção1 .Informações .info p {
+        font-size: 14px;
+    }
+
+    #seção2 .repositorio {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    #seção2 .repositorios .estatisticas-repo span {
+        display: block;
+    }
+
+    #carouselExample .carousel-inner .carousel-item img {
+        width: 100%;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer .colegas .pessoa img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
